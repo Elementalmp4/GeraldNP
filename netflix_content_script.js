@@ -2231,7 +2231,7 @@ var injectContentScript = function() {
                     }
 
                     function toSpacedMessage(message) {
-                        return message.spilt("").join(" ");
+                        return message.split("").join(" ");
                     }
 
                     if (body.startsWith("/")) {
